@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/asia_osm.tar.gz"  -o "asia_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/belgium_osm.tar.gz"  -o "belgium_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/europe_osm.tar.gz"  -o "europe_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/germany_osm.tar.gz"  -o "germany_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/great-britain_osm.tar.gz"  -o "great-britain_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/italy_osm.tar.gz"  -o "italy_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/luxembourg_osm.tar.gz"  -o "luxembourg_osm.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/netherlands_osm.tar.gz"  -o "netherlands_osm.tar.gz"
+
+for f in *.tar.gz; do tar xf "$f"; done

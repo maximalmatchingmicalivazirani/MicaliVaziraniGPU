@@ -1,0 +1,5 @@
+#!/bin/bash
+./matching ../SNAP/amazon/amazon0302/amazon0302_undir.mtx
+./matching ../SNAP/amazon/amazon0312/amazon0312_undir.mtx
+./matching ../SNAP/amazon/amazon0505/amazon0505_undir.mtx
+./matching ../SNAP/amazon/amazon0601/amazon0601_undir.mtx

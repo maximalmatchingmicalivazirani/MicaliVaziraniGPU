@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+./matching_cpu ../dimacs/2DDynSims/hugebubbles-00000/hugebubbles-00000.mtx
+./matching_cpu ../dimacs/2DDynSims/hugebubbles-00010/hugebubbles-00010.mtx
+./matching_cpu ../dimacs/2DDynSims/hugebubbles-00020/hugebubbles-00020.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetrace-00000/hugetrace-00000.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetrace-00010/hugetrace-00010.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetrace-00020/hugetrace-00020.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetric-00000/hugetric-00000.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetric-00010/hugetric-00010.mtx
+./matching_cpu ../dimacs/2DDynSims/hugetric-00020/hugetric-00020.mtx

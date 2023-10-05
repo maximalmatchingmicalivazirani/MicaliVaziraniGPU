@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/kron_g500-logn[16-21].tar.gz"  -o "kron_g500-logn#1.tar.gz"
+for f in *.tar.gz; do tar xf "$f"; done

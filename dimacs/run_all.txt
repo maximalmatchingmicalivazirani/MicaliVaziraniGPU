@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+bash ../dimacs/delauney/run.txt
+bash ../dimacs/kron/run.txt
+bash ../dimacs/rgg/run.txt
+bash ../dimacs/streets/run.txt
+bash ../dimacs/2DDynSims/run.txt
+#bash ../dimacs/citations/run.txt

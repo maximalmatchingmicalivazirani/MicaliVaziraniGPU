@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+# Define an array of tar file URLs
+tar_urls=(
+    "https://www.cise.ufl.edu/research/sparse/MM/SNAP/amazon0302.tar.gz"
+    "https://www.cise.ufl.edu/research/sparse/MM/SNAP/amazon0312.tar.gz"
+    "https://www.cise.ufl.edu/research/sparse/MM/SNAP/amazon0505.tar.gz"
+    "https://www.cise.ufl.edu/research/sparse/MM/SNAP/amazon0601.tar.gz"
+)
+
+# Iterate through the tar files
+for tar_url in "${tar_urls[@]}"; do
+    tar_filename=$(basename "$tar_url")
+    dir_name="${tar_filename%.tar.gz}"
+
+    # Download and extract the tar file
+    curl "$tar_url" -o "$tar_filename"
+    tar xf "$tar_filename"
+
+    # Run dir2undir.py on the extracted files with the complete output file name
+    python ../../dir2undir.py "${dir_name}/${dir_name}.mtx" "${dir_name}/${dir_name}_undir.mtx"
+done

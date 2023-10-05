@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/citationCiteseer.tar.gz"  -o "citationCiteseer.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/coAuthorsCiteseer.tar.gz"  -o "coAuthorsCiteseer.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/coAuthorsDBLP.tar.gz"  -o "coAuthorsDBLP.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/coPapersCiteseer.tar.gz"  -o "coPapersCiteseer.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/coPapersDBLP.tar.gz"  -o "coPapersDBLP.tar.gz"
+for f in *.tar.gz; do tar xf "$f"; done

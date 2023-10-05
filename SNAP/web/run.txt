@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#./matching ../SNAP/web/web-BerkStan/web-BerkStan_undir
+./matching ../SNAP/web/web-Google/web-Google_undir.mtx
+#./matching ../SNAP/web/web-NotreDame/web-NotreDame_undir.mtx
+./matching ../SNAP/web/web-Stanford/web-Stanford_undir.mtx

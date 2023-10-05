@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#./matching_cpu ../SNAP/web/web-BerkStan/web-BerkStan_undir
+./matching_cpu ../SNAP/web/web-Google/web-Google_undir.mtx
+#./matching_cpu ../SNAP/web/web-NotreDame/web-NotreDame_undir.mtx
+./matching_cpu ../SNAP/web/web-Stanford/web-Stanford_undir.mtx

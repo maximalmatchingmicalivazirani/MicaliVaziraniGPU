@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+./matching_cpu ../dimacs/citations/coAuthorsCiteseer/coAuthorsCiteseer.mtx
+./matching_cpu ../dimacs/citations/coAuthorsDBLP/coAuthorsDBLP.mtx
+./matching_cpu ../dimacs/citations/citationCiteseer/citationCiteseer.mtx
+./matching_cpu ../dimacs/citations/coPapersDBLP/coPapersDBLP.mtx
+./matching_cpu ../dimacs/citations/coPapersCiteseer/coPapersCiteseer.mtx

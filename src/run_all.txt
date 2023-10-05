@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+#export CUDA_VISIBLE_DEVICES=1
+for i in {1..5}
+do
+bash ../dimacs/run_all.txt
+bash ../SNAP/run_all.txt
+done
+exit 1
+for i in {1..10}
+do
+bash ../dimacs/delauney/run_cpu.txt
+bash ../dimacs/kron/run_cpu.txt
+bash ../dimacs/rgg/run_cpu.txt
+bash ../dimacs/streets/run_cpu.txt
+bash ../SNAP/stateRoads/run_cpu.txt
+done

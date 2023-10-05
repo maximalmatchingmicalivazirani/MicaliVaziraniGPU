@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/delaunay_n[10-24].tar.gz"  -o "delaunay_n#1.tar.gz"
+for f in *.tar.gz; do tar xf "$f"; done

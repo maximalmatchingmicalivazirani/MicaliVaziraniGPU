@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/SNAP/roadNet-PA.tar.gz"  -o "roadNet-PA.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/SNAP/roadNet-CA.tar.gz"  -o "roadNet-CA.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/SNAP/roadNet-TX.tar.gz"  -o "roadNet-TX.tar.gz"
+
+for f in *.tar.gz; do tar xf "$f"; done

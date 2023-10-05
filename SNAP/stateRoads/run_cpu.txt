@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./matching_cpu ../SNAP/stateRoads/roadNet-CA/roadNet-CA.mtx
+./matching_cpu ../SNAP/stateRoads/roadNet-PA/roadNet-PA.mtx
+./matching_cpu ../SNAP/stateRoads/roadNet-TX/roadNet-TX.mtx
+./matching_cpu ../SNAP/stateRoads/usroads/usroads.mtx

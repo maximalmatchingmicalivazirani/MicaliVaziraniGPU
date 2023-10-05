@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in $(seq 15 1 21)
+do
+  ./matching_cpu ../dimacs/rgg/rgg_n_2_${i}_s0/rgg_n_2_${i}_s0.mtx
+done

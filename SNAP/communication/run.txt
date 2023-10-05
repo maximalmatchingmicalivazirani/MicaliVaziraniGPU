@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./matching ../SNAP/communication/email-Enron/email-Enron.mtx
+./matching ../SNAP/communication/email-EuAll/email-EuAll_undir.mtx
+#./matching ../SNAP/communication/wiki-Talk/wiki-Talk_undir.mtx

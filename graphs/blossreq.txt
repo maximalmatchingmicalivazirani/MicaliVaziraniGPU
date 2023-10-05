@@ -1,0 +1,21 @@
+%%MatrixMarket matrix coordinate pattern symmetric
+19 19 18
+1 4
+1 5
+3 6
+4 7
+5 8
+6 9
+8 10
+8 11
+8 12
+9 13
+9 14
+10 15
+11 16
+12 17
+13 17
+13 18
+14 19
+18 19
+

@@ -1,0 +1,27 @@
+#!/usr/bin/bash
+
+cd 2DDynSims
+bash download.txt
+cd ..
+
+cd citations
+bash download.txt
+cd ..
+
+cd delauney
+bash download.txt
+cd ..
+
+cd kron
+bash download.txt
+cd ..
+
+cd rgg
+bash download.txt
+cd ..
+
+cd streets
+bash download.txt
+cd ..
+
+

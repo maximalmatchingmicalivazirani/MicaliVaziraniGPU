@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+for i in {1..10}
+do
+bash ../dimacs/run_all_cpu.txt
+bash ../SNAP/run_all_cpu.txt
+done

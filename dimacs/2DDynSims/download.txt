@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugebubbles-00000.tar.gz" -o "hugebubbles-00000.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugebubbles-00010.tar.gz" -o "hugebubbles-00010.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugebubbles-00020.tar.gz" -o "hugebubbles-00020.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetrace-00000.tar.gz" -o "hugetrace-00000.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetrace-00010.tar.gz" -o "hugetrace-00010.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetrace-00020.tar.gz" -o "hugetrace-00020.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetric-00000.tar.gz" -o "hugetric-00000.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetric-00010.tar.gz" -o "hugetric-00010.tar.gz"
+curl "http://sparse-files.engr.tamu.edu/MM/DIMACS10/hugetric-00020.tar.gz" -o "hugetric-00020.tar.gz"
+
+for f in *.tar.gz; do tar xf "$f"; done

@@ -1,0 +1,6 @@
+#!/bin/bash
+#for i in $(seq 16 1 19)
+for i in $(seq 16 1 17)
+do
+  ./matching_cpu ../dimacs/kron/kron_g500-logn$i/kron_g500-logn$i.mtx
+done

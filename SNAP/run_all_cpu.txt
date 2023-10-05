@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+bash ../SNAP/amazon/run_cpu.txt
+bash ../SNAP/web/run_cpu.txt
+bash ../SNAP/communication/run_cpu.txt
+bash ../SNAP/stateRoads/run_cpu.txt

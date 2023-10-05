@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+#export CUDA_VISIBLE_DEVICES=1
+for i in {1..10}
+do
+bash ../dimacs/run_all.txt
+bash ../SNAP/run_all.txt
+done

@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+bash ../SNAP/amazon/run.txt
+bash ../SNAP/web/run.txt
+bash ../SNAP/communication/run.txt
+bash ../SNAP/stateRoads/run.txt

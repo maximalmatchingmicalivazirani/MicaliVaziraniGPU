@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+./matching_cpu ../dimacs/streets/luxembourg_osm/luxembourg_osm.mtx
+./matching_cpu ../dimacs/streets/belgium_osm/belgium_osm.mtx
+./matching_cpu ../dimacs/streets/netherlands_osm/netherlands_osm.mtx
+./matching_cpu ../dimacs/streets/italy_osm/italy_osm.mtx
+./matching_cpu ../dimacs/streets/great-britain_osm/great-britain_osm.mtx
+./matching_cpu ../dimacs/streets/germany_osm/germany_osm.mtx
+./matching_cpu ../dimacs/streets/asia_osm/asia_osm.mtx
+#./matching_cpu ../dimacs/streets/europe_osm/europe_osm.mtx 0 1
