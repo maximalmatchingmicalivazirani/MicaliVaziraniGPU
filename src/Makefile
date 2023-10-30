@@ -1,7 +1,7 @@
 # Compiler and flags
 NVCC = nvcc
 CXXFLAGS = -O3 -lineinfo
-NVCCFLAGS = -O3 -Xptxas -O3 -Xcompiler -O3 --extended-lambda --extra-device-vectorization --use_fast_math --gpu-architecture=compute_86
+NVCCFLAGS = -O3 -Xptxas -O3 -Xcompiler -O3 --extended-lambda --extra-device-vectorization --use_fast_math
 
 # Source files
 SRCS = matching.cu matchgpu.cu mmiof.cu 
